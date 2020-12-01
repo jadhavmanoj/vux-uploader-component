@@ -185,7 +185,7 @@ export default {
       const inputChangeFiles = target.files
       if (inputChangeFiles.length > 0) {
         if (fileList.length + inputChangeFiles.length > limit) {
-          alert(`不能上传超过${limit}张图片`)
+          alert(`File limit suppored: - ${limit} `)
           return
         }
         Promise.all(
